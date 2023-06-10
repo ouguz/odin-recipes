@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.list > li {
+    margin: auto;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.container {
+    display: inline-block;
+    vertical-align: top;
+    background-color: darkred;
+    font-size: 32px;
+    margin-top: 15px;
+    width: 800px;
+    height: 523px;
+    padding-left: 20px;
+}
+
+.kutu {
+    background-color: darkred;
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+}
+a {
+    color: black;
+}
